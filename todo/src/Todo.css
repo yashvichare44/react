@@ -1,0 +1,69 @@
+.todo-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Adjust as needed */
+  margin-bottom: 10px; /* Adjust as needed */
+  border: 1px solid #1d1c1c; /* Border for each task */
+  border-radius: 4px; /* Rounded corners */
+  padding: 10px; /* Padding inside task */
+}
+
+.todo-text {
+  font-size: 18px; /* Adjust as needed */
+  margin-right: 10px; /* Adjust as needed */
+  flex: 1; /* Take remaining space */
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+}
+
+.action-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 5px;
+  transition: color 0.3s ease;
+}
+
+.action-button:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+.delete-button {
+  color: #dc3545; /* Red color for delete button */
+}
+
+
+.edit-button {
+  color: #d35320; /* Yellow color for edit button */
+}
+
+.edit-container {
+  display: flex;
+  align-items: center;
+}
+
+.edit-input {
+  padding: 5px;
+  margin-right: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.edit-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.edit-button:hover {
+  background-color: #218838;
+}
